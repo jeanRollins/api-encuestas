@@ -6,6 +6,10 @@ class HomeController extends Controller
 
 	public function Test()
 	{
-		echo $this->GetInstance("User")->name ;
+		$user = $this->GetInstance("User")->GetUser('jsoto') ;
+
+		return $this->WithJson( $user ) ;
+
+		//var_dump( $users ) ;
 	}
 }

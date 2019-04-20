@@ -12,4 +12,12 @@ class Controller
 		return new $model() ;
 	}
 
+	public function WithJson( $data )
+	{
+		header('Content-Type: application/json');
+
+		echo  json_encode( $data )  ;	
+
+	}
+
 }
