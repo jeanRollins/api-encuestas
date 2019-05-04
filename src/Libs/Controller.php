@@ -12,6 +12,13 @@ class Controller
 		return new $model() ;
 	}
 
+	public function GetHelper( $helper )
+	{
+		require_once '../src/Helpers/' . $helper . '.php' ;
+
+		return new $helper() ;
+	}
+
 	public function WithJson( $data )
 	{
 		header('Content-Type: application/json');
@@ -19,5 +26,7 @@ class Controller
 		echo  json_encode( $data )  ;	
 
 	}
+
+
 
 }

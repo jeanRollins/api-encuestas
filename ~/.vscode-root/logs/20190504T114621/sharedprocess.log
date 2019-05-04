@@ -1,0 +1,61 @@
+[2019-05-04 11:46:25.151] [sharedprocess] [info] main {"machineId":"61c390c89e66271c8fc4f662759b43db62999ce16c2292c5ba21ca7777295445"}
+[2019-05-04 11:46:25.338] [sharedprocess] [info] Scanned user extensions: 5
+[2019-05-04 11:46:25.458] [sharedprocess] [info] Scanned user extensions: 5
+[2019-05-04 11:46:25.508] [sharedprocess] [info] Scanned system extensions: 72
+[2019-05-04 11:46:25.533] [sharedprocess] [info] Scanned system extensions: 72
+[2019-05-04 11:46:26.042] [sharedprocess] [info] Scanned user extensions: 5
+[2019-05-04 11:47:00.417] [sharedprocess] [info] Scanned user extensions: 5
+[2019-05-04 11:47:00.420] [sharedprocess] [info] Scanned user extensions: 5
+[2019-05-04 11:47:00.608] [sharedprocess] [info] Scanned system extensions: 72
+[2019-05-04 11:47:00.619] [sharedprocess] [info] Scanned system extensions: 72
+[2019-05-04 11:47:02.532] [sharedprocess] [info] Scanned user extensions: 5
+[2019-05-04 11:47:05.180] [sharedprocess] [info] Starting to clean up unused language packs.
+[2019-05-04 11:47:23.775] [sharedprocess] [info] Scanned user extensions: 5
+[2019-05-04 11:47:23.779] [sharedprocess] [info] Scanned user extensions: 5
+[2019-05-04 11:47:23.782] [sharedprocess] [info] Scanned user extensions: 5
+[2019-05-04 11:47:23.784] [sharedprocess] [info] Scanned user extensions: 5
+[2019-05-04 11:47:23.885] [sharedprocess] [info] Scanned system extensions: 72
+[2019-05-04 11:47:23.890] [sharedprocess] [info] Scanned system extensions: 72
+[2019-05-04 11:47:23.898] [sharedprocess] [info] Scanned system extensions: 72
+[2019-05-04 11:48:13.906] [sharedprocess] [info] Installing extension: vscode-icons-team.vscode-icons
+[2019-05-04 11:48:13.917] [sharedprocess] [info] Scanned user extensions: 5
+[2019-05-04 11:48:14.833] [sharedprocess] [info] Downloaded extension: vscode-icons-team.vscode-icons /tmp/f3ba6ddd-2d10-4646-aa7f-bab4f79959a3
+[2019-05-04 11:48:19.003] [sharedprocess] [info] Extracted extension to /home/jean_rollins/.vscode/extensions/.vscode-icons-team.vscode-icons-8.6.0: vscode-icons-team.vscode-icons
+[2019-05-04 11:48:19.004] [sharedprocess] [info] Renamed to /home/jean_rollins/.vscode/extensions/vscode-icons-team.vscode-icons-8.6.0
+[2019-05-04 11:48:19.009] [sharedprocess] [info] Installation completed. vscode-icons-team.vscode-icons
+[2019-05-04 11:48:19.022] [sharedprocess] [info] Extensions installed successfully: vscode-icons-team.vscode-icons
+[2019-05-04 11:52:02.545] [sharedprocess] [info] Scanned user extensions: 6
+[2019-05-04 11:57:02.562] [sharedprocess] [info] Scanned user extensions: 6
+[2019-05-04 17:21:29.258] [sharedprocess] [info] Scanned user extensions: 6
+[2019-05-04 17:26:29.274] [sharedprocess] [info] Scanned user extensions: 6
+[2019-05-04 17:31:29.294] [sharedprocess] [info] Scanned user extensions: 6
+[2019-05-04 17:36:29.310] [sharedprocess] [info] Scanned user extensions: 6
+[2019-05-04 17:39:57.632] [sharedprocess] [info] Scanned user extensions: 6
+[2019-05-04 17:39:57.732] [sharedprocess] [info] Scanned system extensions: 72
+[2019-05-04 17:40:00.440] [sharedprocess] [info] Scanned user extensions: 6
+[2019-05-04 17:45:00.479] [sharedprocess] [info] Scanned user extensions: 6
+[2019-05-04 17:50:00.498] [sharedprocess] [info] Scanned user extensions: 6
+[2019-05-04 17:55:00.514] [sharedprocess] [info] Scanned user extensions: 6
+[2019-05-04 18:00:00.532] [sharedprocess] [info] Scanned user extensions: 6
+[2019-05-04 18:05:00.552] [sharedprocess] [info] Scanned user extensions: 6
+[2019-05-04 18:10:00.826] [sharedprocess] [info] Scanned user extensions: 6
+[2019-05-04 18:15:00.843] [sharedprocess] [info] Scanned user extensions: 6
+[2019-05-04 18:20:00.859] [sharedprocess] [info] Scanned user extensions: 6
+[2019-05-04 18:25:01.203] [sharedprocess] [info] Scanned user extensions: 6
+[2019-05-04 18:30:01.220] [sharedprocess] [info] Scanned user extensions: 6
+[2019-05-04 18:35:01.235] [sharedprocess] [info] Scanned user extensions: 6
+[2019-05-04 18:40:01.253] [sharedprocess] [info] Scanned user extensions: 6
+[2019-05-04 18:45:01.270] [sharedprocess] [info] Scanned user extensions: 6
+[2019-05-04 18:50:01.286] [sharedprocess] [info] Scanned user extensions: 6
+[2019-05-04 18:55:01.303] [sharedprocess] [info] Scanned user extensions: 6
+[2019-05-04 19:00:01.321] [sharedprocess] [info] Scanned user extensions: 6
+[2019-05-04 19:05:01.336] [sharedprocess] [info] Scanned user extensions: 6
+[2019-05-04 19:10:01.352] [sharedprocess] [info] Scanned user extensions: 6
+[2019-05-04 19:15:01.365] [sharedprocess] [info] Scanned user extensions: 6
+[2019-05-04 19:20:01.382] [sharedprocess] [info] Scanned user extensions: 6
+[2019-05-04 19:25:02.376] [sharedprocess] [info] Scanned user extensions: 6
+[2019-05-04 19:30:02.394] [sharedprocess] [info] Scanned user extensions: 6
+[2019-05-04 19:35:02.407] [sharedprocess] [info] Scanned user extensions: 6
+[2019-05-04 19:40:02.429] [sharedprocess] [info] Scanned user extensions: 6
+[2019-05-04 19:45:02.444] [sharedprocess] [info] Scanned user extensions: 6
+[2019-05-04 19:50:02.462] [sharedprocess] [info] Scanned user extensions: 6

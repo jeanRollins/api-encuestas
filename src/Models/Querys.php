@@ -11,7 +11,7 @@
 
 -insertar
 
-	insert into ( id_user, username, surname, type, validator ) values ( 3 , 'jvidal','javier vidal',3,'vtwat3b5ns3');
+	insert into users ( id_user, username, surname, type, validator ) values ( 3 , 'jvidal','javier vidal',3,'vtwat3b5ns3');
 
 
 */

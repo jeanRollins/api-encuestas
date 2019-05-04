@@ -1,0 +1,6 @@
+[2019-05-02 00:28:59.078] [renderer1] [error] Data tree node not found: [object Object]: Error: Data tree node not found: [object Object]
+    at Y.getDataNode (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:955:302)
+    at Y.reveal (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:954:888)
+    at e.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:5248:882)
+    at Generator.next (<anonymous>)
+    at r (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:32:293)

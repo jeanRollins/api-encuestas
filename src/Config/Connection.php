@@ -2,35 +2,23 @@
 
 require_once 'Credentials.php' ;
 
-class Connection
-{
+use Illuminate\Database\Capsule\Manager as Connection;
 
-	private $dbh 	  = '' ;
-	private $error	  = '' ;
-    private $HOST 	  = DB_HOST ;
-    private $USER 	  = DB_USER ;
-    private $DB_NAME  = DB_NAME ;
-    private $PASSWORD = DB_PASSWORD ; 
+$connection = new Connection();
 
-    public function __construct()
-    {
-    	$DNS = "pgsql:dbname=$this->DB_NAME;host=$this->HOST"  ;
+$connection->addConnection([
 
-    	try
-    	{	
-    		$this->dbh = new PDO ( $DNS , $this->USER , $this->PASSWORD  ) ; 
-           	$this->dbh->exec('set names utf8') ;
-    	}
-    	catch( PDOException $exception )
-    	{
-            $this->error = $exception->getMessage() ;
-            echo $this->error ;
-    	}
-    }
+    'driver'     =>   'pgsql'           ,
+    'host'       =>   DB_HOST           ,
+    'username'   =>   DB_USER           ,
+    'password'   =>   DB_PASSWORD       ,
+    'database'   =>   DB_NAME           ,
+    'charset'    =>   'utf8'            ,
+    'collation'  =>   'utf8_unicode_ci' ,
+    'prefix'     =>   '' 
 
-    public function Connect()
-    {
-        return $this->dbh ;
-    }
+]);
 
-}
+$connection->setAsGlobal() ;
+
+$connection->bootEloquent() ;
