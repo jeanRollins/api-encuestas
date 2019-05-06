@@ -39,4 +39,14 @@ class HomeController extends Controller
 
 	} 
 
+	public function testing()
+	{
+		$_username  = 'cmaturana' ;
+		$_surname   = 'Franco Maturana' ; 
+		$password   = '123456' ;
+		$_password  =  password_hash( $password , PASSWORD_BCRYPT );
+
+		$response = User::create([ 'username' => $_username , 'surname' => $_surname , 'password' => $_password]) ;
+	}
+
 }

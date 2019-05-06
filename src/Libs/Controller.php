@@ -19,12 +19,24 @@ class Controller
 		return new $helper() ;
 	}
 
+	public function GetLibs( $libs )
+	{
+		require_once '../src/Libs/' . $libs . '.php' ;
+
+		return new $libs() ;
+	}
+
 	public function WithJson( $data )
 	{
 		header('Content-Type: application/json');
 
 		echo  json_encode( $data )  ;	
 
+	}
+
+	public function api()
+	{
+		
 	}
 
 

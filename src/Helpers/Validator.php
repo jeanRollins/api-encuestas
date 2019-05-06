@@ -2,7 +2,7 @@
 
 class Validator
 {
-	private function Sanity( $data ) : string
+	public function Sanity( $data ) : string
 	{
 		$data  = trim( $data ) ;
 		$data  = htmlspecialchars( $data ) ;
@@ -11,7 +11,7 @@ class Validator
 		return $data ;
 	}
 
-	private function IsEmpty( $data ) : bool
+	public function IsEmpty( $data ) : bool
 	{
 		if( empty( $data ) )
 		{
@@ -31,14 +31,6 @@ class Validator
 		return true ;
 	}
 
-	public function getSanity( $data )
-	{
-		return $this->Sanity( $data );
-	}
 
-	public function getIsEmpty( $data )
-	{
-		return $this->IsEmpty( $data );
-	}
 
 }

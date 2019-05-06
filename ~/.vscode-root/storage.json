@@ -7,6 +7,7 @@
             "file:///home/jean_rollins/Escritorio/ionic/angularbases"
         ],
         "files2": [
+            "file:///media/jean_rollins/TOSHIBA%20EXT/funciones.js",
             "file:///etc/php/7.2/cli/php.ini"
         ]
     },
@@ -85,6 +86,17 @@
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///media/jean_rollins/TOSHIBA%20EXT/funciones.js",
+                                        "path": "/media/jean_rollins/TOSHIBA EXT/funciones.js",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/media/jean_rollins/TOSHIBA EXT/funciones.js"
                                 },
                                 {
                                     "id": "openRecentFile",

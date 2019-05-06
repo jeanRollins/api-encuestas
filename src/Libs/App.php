@@ -20,6 +20,12 @@ class App
 			return ;
 		}
 
+		if( ! method_exists( 'Controller', 'api' ) ){
+			echo 'Method api not found';
+			return ;
+		}
+		unset( $url[0] ) ;
+
 		$url[1] =  ucwords( $url[1] ) . 'Controller';
 		$routeFile = '../src/Controllers/' . $url[1] . '.php';
 
@@ -50,7 +56,7 @@ class App
 		$this->method = $url[2] ;
 		unset( $url[2] ) ;
 
-		$this->params = $url ? array_values( $url )  :  [] ;
+		$this->params = $url ? array_values( $url )  :  [] ;	
  
 		call_user_func_array( [$this->controller, $this->method] , $this->params ) ;
 	}
@@ -69,7 +75,12 @@ class App
 	private function Redirect()
 	{
 		header('Location: http://localhost/api-encuestas/public/home/index/') ;
-		exit;
+		exit ;
+	}
+
+	public static function use( $src , $file )
+	{
+		require_once '../src/' . $src . '/' . $file . '.php' ;
 	}
 }
 

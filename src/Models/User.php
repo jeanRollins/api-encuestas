@@ -6,6 +6,6 @@ class User extends Eloquent
 {
 	public $name ;
 	
-	protected $fillable = ['username', 'surname'] ;
+	protected $fillable = [ 'username' , 'surname' , 'password'] ;
 
 }
